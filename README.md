@@ -8,6 +8,9 @@ An autonomous traffic red-light violation detection system was built, which has 
 # Introduction
 Traffic management has evolved into an urgent issue due to the growing number of cars on the road and the fast urbanization of cities. The danger of accidents and disruptions to traffic flow caused by drivers disobeying traffic signals, particularly red lights, is a major issue in contemporary traffic regulation. Many accidents, injuries, and deaths are caused by drivers who disregard red lights and continue to drive through [1] them. Particularly in densely populated urban areas, the ability of conventional traffic enforcement measures, such as traffic cops watching junctions, to guarantee constant surveillance and enforcement is sometimes lacking. A potential remedy to these constraints is an automated system that detects when a red signal has been violated.
 
+In addition to improving road safety by reducing traffic offenses, the suggested approach helps make traffic management more efficient. Such automated solutions will be crucial in preserving order and decreasing traffic-related accidents as cities transition to smart infrastructure. This article showcases how computer vision can revolutionize transportation management and set the stage for future smart city innovations.
+
+
 ## 🚀 Development Plan
 
 1. Project Initialization
@@ -80,7 +83,6 @@ Traffic management has evolved into an urgent issue due to the growing number of
 
 
 
-In addition to improving road safety by reducing traffic offenses, the suggested approach helps make traffic management more efficient. Such automated solutions will be crucial in preserving order and decreasing traffic-related accidents as cities transition to smart infrastructure. This article showcases how computer vision can revolutionize transportation management and set the stage for future smart city innovations.
 
 # Conclusion
 In the context of smart cities in particular, the installation of a system to automatically identify red-light violations showed promise for improving traffic control. The system effectively detected and tracked cars that disobeyed traffic signals in real-time by applying contemporary computer vision methods combined with OpenCV in a Python environment. When it came to detecting infractions and accurately recognizing the license plates of violating cars, the system performed well.
