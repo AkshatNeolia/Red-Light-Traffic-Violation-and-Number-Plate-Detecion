@@ -1,4 +1,4 @@
-# RED-LIGHT-TRAFFIC-VIOLATION-AND-NUMBER-PLATE-DETECTION
+# **RED-LIGHT-TRAFFIC-VIOLATION-AND-NUMBER-PLATE-DETECTION**
 
 ## Project Overview
 An autonomous traffic red-light violation detection system was built, which has the potential to significantly improve transportatsion management in smart cities. The operation of the system is mostly dependent on contemporary computer vision methods, which were implemented in OpenCV inside the Python environment. 
@@ -63,7 +63,7 @@ In addition to improving road safety by reducing traffic offenses, the suggested
 ![image](https://github.com/user-attachments/assets/4b2d13b9-31d4-48b7-a4df-e4fd6fc1bea2)
 
 
-
+#  **Output Images**
 ![WhatsApp Image 2025-02-05 at 23 00 10_7ef5e659](https://github.com/user-attachments/assets/506e9321-1024-4342-b4a8-4abf6bc9e0a0)
 
 ![WhatsApp Image 2025-02-05 at 23 00 41_48e2550c](https://github.com/user-attachments/assets/8409c50e-abaa-4f25-b53e-f4d868aacd84)
