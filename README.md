@@ -1,67 +1,73 @@
+
 # **RED-LIGHT-TRAFFIC-VIOLATION-AND-NUMBER-PLATE-DETECTION**
 
 ## Project Overview
-An autonomous traffic red-light violation detection system was built, which has the potential to significantly improve transportatsion management in smart cities. The operation of the system is mostly dependent on contemporary computer vision methods, which were implemented in OpenCV inside the Python environment. 
+An autonomous traffic red-light violation detection system was built, which has the potential to significantly improve transportation management in smart cities. The operation of the system is mostly dependent on contemporary computer vision methods, which were implemented in OpenCV inside the Python environment.
 
---- 
+---
 
 # Introduction
-Traffic management has evolved into an urgent issue due to the growing number of cars on the road and the fast urbanization of cities. The danger of accidents and disruptions to traffic flow caused by drivers disobeying traffic signals, particularly red lights, is a major issue in contemporary traffic regulation. Many accidents, injuries, and deaths are caused by drivers who disregard red lights and continue to drive through [1] them. Particularly in densely populated urban areas, the ability of conventional traffic enforcement measures, such as traffic cops watching junctions, to guarantee constant surveillance and enforcement is sometimes lacking. A potential remedy to these constraints is an automated system that detects when a red signal has been violated.
+With the rapid increase in urbanization and vehicles, red-light violations are a major cause of traffic accidents. Traditional traffic management, such as traffic cops at intersections, often cannot ensure consistent surveillance. This project presents an automated system using computer vision to detect red-light violations in real-time and capture the license plates of the offending vehicles. The system aims to enhance road safety and traffic management, especially in smart cities, by leveraging automation and computer vision technology.
 
-In addition to improving road safety by reducing traffic offenses, the suggested approach helps make traffic management more efficient. Such automated solutions will be crucial in preserving order and decreasing traffic-related accidents as cities transition to smart infrastructure. This article showcases how computer vision can revolutionize transportation management and set the stage for future smart city innovations.
-
+---
 
 ## 🚀 Development Plan
 
-1. Project Initialization
-  Define the project scope and objectives.
-  Set up the development environment.
-  Initialize Git repository and create a structured folder hierarchy.
+1. **Project Initialization**
+   - Define the project scope and objectives.
+   - Set up the development environment.
+   - Initialize Git repository and create a structured folder hierarchy.
 
-2. Data Collection & Preprocessing
-  Gather video footage of traffic signals and vehicle violations.
-  Annotate datasets for training.
-  Preprocess images/videos.
+2. **Data Collection & Preprocessing**
+   - Gather video footage of traffic signals and vehicle violations.
+   - Annotate datasets for training.
+   - Preprocess images/videos.
 
-3. 🛠 Setting Up MATLAB
-  Download MATLAB from the official MathWorks website.
-  Install the required toolboxes (e.g., Computer Vision Toolbox, Image Processing Toolbox).
-  Activate MATLAB using a valid license.
+3. 🛠 **Setting Up MATLAB**
+   - Download MATLAB from the official MathWorks website.
+   - Install the required toolboxes (e.g., Computer Vision Toolbox, Image Processing Toolbox).
+   - Activate MATLAB using a valid license.
 
-4. Installation...
-  Open MATLAB and run the following command to check installation:
+4. **Installation**
+   - Open MATLAB and run the following command to check installation:
    ```
    ver
    ```
 
-5. Set Up MATLAB Path
-   Add your project folder to the MATLAB path:
+5. **Set Up MATLAB Path**
+   - Add your project folder to the MATLAB path:
    ```
-   addpath('C:\path\to\your\project')
+   addpath('C:\path	o\your\project')
    savepath
-
    ```
 
-6. Running a MATLAB Script
+6. **Running a MATLAB Script**
    ```
-   cd 'C:\path\to\your\project'
-
+   cd 'C:\path	o\your\project'
    ```
 
-7. Troubleshooting
-  If MATLAB doesn't recognize a function, ensure the script is in the current directory.
-  Use which function_name to locate missing functions.
-  Reset MATLAB path if needed:
-    ```
-    restoredefaultpath
-    rehash toolboxcache
-    savepath
-    ```
+---
 
-    
+## **TVD File Summary**
+
+This project includes an **Accident Detection System** with two key files:
+
+1. **Accident_Detection.m** (MATLAB)
+   - Detects accidents in video footage (.avi format) using image processing and CNN-based analysis.
+   - Provides a GUI for video processing and accident detection.
+
+2. **bson.c** (C)
+   - Handles BSON data for integrating with MongoDB.
+   - Serializes and deserializes accident detection results for database storage.
+
+**Usage**: The system detects accidents from surveillance videos and stores results in MongoDB for logging.
+
+**Note**: The **TVD file** contains video footage and frame data required for the project. Please **extract** the file before use. The system processes the frames and videos provided in the **TVD file** to detect traffic violations.
+
+---
+
 # Architecture Diagram 
 ![image](https://github.com/user-attachments/assets/4b2d13b9-31d4-48b7-a4df-e4fd6fc1bea2)
-
 
 #  **Output Images**
 ![WhatsApp Image 2025-02-05 at 23 00 10_7ef5e659](https://github.com/user-attachments/assets/506e9321-1024-4342-b4a8-4abf6bc9e0a0)
@@ -80,11 +86,9 @@ In addition to improving road safety by reducing traffic offenses, the suggested
 
 ![image](https://github.com/user-attachments/assets/02a1cdad-0410-484e-abba-41cc3b2cf46f)
 
-
-
-
+---
 
 # Conclusion
-In the context of smart cities in particular, the installation of a system to automatically identify red-light violations showed promise for improving traffic control. The system effectively detected and tracked cars that disobeyed traffic signals in real-time by applying contemporary computer vision methods combined with OpenCV in a Python environment. When it came to detecting infractions and accurately recognizing the license plates of violating cars, the system performed well.
-The object tracker and object detector, the system's backbone, collaborated to keep tabs on where and how cars were doing. At junctions, the object detector detected automobiles and the tracker followed their every move. Because of this collaboration, the system was able to reliably and efficiently detect red-light offenders by differentiating between complying and non-compliant cars.
-In general, the system that automatically detects whether a red light has been violated was a useful tool for making roads safer. Its capacity to collect license plates, identify offenders accurately, and detect in real-time make it a priceless tool for contemporary transportation networks. A sustainable and effective answer to the issues of smart city traffic management is provided by the system, which leverages computer vision capabilities.
+The automated red-light violation detection system demonstrates significant potential in improving traffic control and road safety in smart cities. Using computer vision methods, the system accurately detects violations in real-time and captures the license plates of violators. The combination of object tracking and detection enables efficient monitoring, making the system a valuable tool for modern transportation networks.
+
+---
