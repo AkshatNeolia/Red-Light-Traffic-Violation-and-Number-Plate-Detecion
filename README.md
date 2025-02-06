@@ -45,6 +45,25 @@ With the rapid increase in urbanization and vehicles, red-light violations are a
    ```
    cd 'C:\path	o\your\project'
    ```
+   ## **TVD File Summary**
+
+The **TVD file** contains essential video footage and frame data required for traffic violation and accident detection. Please **extract** the file before use, as the system processes these frames and videos for analysis.
+
+### **Key Components:**
+
+1. **Accident_Detection.m (MATLAB Script)**
+   - Detects accidents in **.avi** video files using image processing and **CNN-based analysis**.
+   - Provides an interactive **GUI** for video selection and processing.
+
+2. **bson.c (C Library)**
+   - Handles **BSON (Binary JSON)** data for seamless integration with **MongoDB**.
+   - Enables efficient **serialization and storage** of accident detection results.
+
+### **Functionality & Usage:**
+- The system analyzes **traffic surveillance footage** to detect accidents and violations in real-time.
+- Detected incidents are logged and structured using **MongoDB** as a **big data tool** for efficient record-keeping.
+
+⚠️ **Important:** Before running the project, **extract** the **TVD file** to access the required videos and frames. The system relies on these files for accurate detection and processing.
 
 # Architecture Diagram 
 ![image](https://github.com/user-attachments/assets/4b2d13b9-31d4-48b7-a4df-e4fd6fc1bea2)
