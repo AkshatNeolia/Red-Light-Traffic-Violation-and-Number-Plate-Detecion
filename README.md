@@ -71,27 +71,34 @@ The **TVD file** contains essential video footage and frame data required for tr
 The **Red Light Traffic Violation Detection System** integrates **OpenCV, Python, YOLOv5, and MATLAB** for automated enforcement. Traffic cameras capture real-time video, which is processed using **OpenCV** for frame extraction and **MATLAB** for signal detection. **YOLOv5** detects and tracks vehicles, while movement analysis determines violations. License plates are extracted using **OCR (Tesseract/EasyOCR)**, and violation data is stored in a database. The system generates automated reports and sends notifications via **SMS/Email**. A dashboard allows law enforcement to monitor violations efficiently. This solution enhances road safety by reducing manual intervention and ensuring accurate red-light violation detection. 🚦
 
 #  **Output Images**
+1.)The **Number Plate Detection System** leverages **YOLOv5, OpenCV, and OCR** for automated license plate recognition. It includes **RC verification** by cross-checking a vehicle database, a **Duplicate Plate Detector** to identify fraudulent plates, and a **Parking Analyzer** to monitor and manage parking violations. The system enhances security, prevents fraud, and improves parking management for **law enforcement and smart parking applications**. 🚗🔍
+
 ![WhatsApp Image 2025-02-05 at 23 00 10_7ef5e659](https://github.com/user-attachments/assets/506e9321-1024-4342-b4a8-4abf6bc9e0a0)
 
 ![WhatsApp Image 2025-02-05 at 23 00 41_48e2550c](https://github.com/user-attachments/assets/8409c50e-abaa-4f25-b53e-f4d868aacd84)
 
 ![WhatsApp Image 2025-02-05 at 23 21 19_7f644a95](https://github.com/user-attachments/assets/be910a23-eda8-41ba-8674-11e9adfe6c90)
 
-The **Number Plate Detection System** leverages **YOLOv5, OpenCV, and OCR** for automated license plate recognition. It includes **RC verification** by cross-checking a vehicle database, a **Duplicate Plate Detector** to identify fraudulent plates, and a **Parking Analyzer** to monitor and manage parking violations. The system enhances security, prevents fraud, and improves parking management for **law enforcement and smart parking applications**. 🚗🔍
 
+
+
+2.)The Number Plate Detection System uses OpenCV, Python, and OCR to read license plates from images. It converts images to grayscale for noise reduction and better contrast, then extracts plate numbers using edge detection and OCR (Tesseract/EasyOCR).
 
 ![WhatsApp Image 2025-02-05 at 23 21 32_866cc415](https://github.com/user-attachments/assets/ad93ff1d-2875-4787-9b4a-8a760072622b)
 
 ![image](https://github.com/user-attachments/assets/c927f744-bd95-4d78-a97f-61762b7a0bce)
 
-The Number Plate Detection System uses OpenCV, Python, and OCR to read license plates from images. It converts images to grayscale for noise reduction and better contrast, then extracts plate numbers using edge detection and OCR (Tesseract/EasyOCR).
 
+
+
+3.)The **Accident Detection System** uses **feature point analysis** with **OpenCV, Python, and machine learning** to identify collisions in real-time. It detects vehicles in video frames, tracks their movement using **optical flow or keypoint matching**, and analyzes sudden changes in trajectory, deformation, or impact patterns. Detected accidents trigger **alerts and notifications** for emergency response. This system enhances **road safety and accident reporting** for smart surveillance and traffic monitoring. 🚗⚠️
 
 ![image](https://github.com/user-attachments/assets/8a755611-775b-411a-837f-a6cf51fd0991)
 
 ![image](https://github.com/user-attachments/assets/81d30275-baa5-468b-9b2b-c3db22062e91)
 
 ![image](https://github.com/user-attachments/assets/02a1cdad-0410-484e-abba-41cc3b2cf46f)
+
 
 ---
 
