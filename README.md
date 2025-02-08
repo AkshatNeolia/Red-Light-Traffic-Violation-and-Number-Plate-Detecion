@@ -67,6 +67,7 @@ The **TVD file** contains essential video footage and frame data required for tr
 
 # Architecture Diagram 
 ![image](https://github.com/user-attachments/assets/4b2d13b9-31d4-48b7-a4df-e4fd6fc1bea2)
+The **Red Light Traffic Violation Detection System** integrates **OpenCV, Python, YOLOv5, and MATLAB** for automated enforcement. Traffic cameras capture real-time video, which is processed using **OpenCV** for frame extraction and **MATLAB** for signal detection. **YOLOv5** detects and tracks vehicles, while movement analysis determines violations. License plates are extracted using **OCR (Tesseract/EasyOCR)**, and violation data is stored in a database. The system generates automated reports and sends notifications via **SMS/Email**. A dashboard allows law enforcement to monitor violations efficiently. This solution enhances road safety by reducing manual intervention and ensuring accurate red-light violation detection. 🚦
 
 #  **Output Images**
 ![WhatsApp Image 2025-02-05 at 23 00 10_7ef5e659](https://github.com/user-attachments/assets/506e9321-1024-4342-b4a8-4abf6bc9e0a0)
