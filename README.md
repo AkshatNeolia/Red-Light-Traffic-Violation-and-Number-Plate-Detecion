@@ -82,7 +82,16 @@ The **Red Light Traffic Violation Detection System** integrates **OpenCV, Python
 
 
 
-2.)The Number Plate Detection System uses OpenCV, Python, and OCR to read license plates from images. It converts images to grayscale for noise reduction and better contrast, then extracts plate numbers using edge detection and OCR (Tesseract/EasyOCR).
+2.)This Number Plate Detection System uses OpenCV and Python for automated license plate recognition. The process involves:
+
+Input Image Processing – Captures and preprocesses the image.
+Intensity Image Conversion – Converts to grayscale for better contrast.
+Median Filtering – Removes noise while preserving edges.
+Erosion – Enhances structural features by reducing unwanted details.
+Edge Brightening & Erosion – Highlights and refines plate boundaries.
+Image Subtraction – Extracts key regions of interest.
+Region Detection – Identifies and isolates the license plate.
+The extracted plate is processed using OCR (Tesseract/EasyOCR) for text recognition. The system supports RC verification, duplicate plate detection, and parking analysis, enhancing security and automation. 🚦
 
 ![WhatsApp Image 2025-02-05 at 23 21 32_866cc415](https://github.com/user-attachments/assets/ad93ff1d-2875-4787-9b4a-8a760072622b)
 
