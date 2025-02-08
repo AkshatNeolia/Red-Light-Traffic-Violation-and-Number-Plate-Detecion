@@ -79,7 +79,14 @@ The **Red Light Traffic Violation Detection System** integrates **OpenCV, Python
 
 The **Number Plate Detection System** leverages **YOLOv5, OpenCV, and OCR** for automated license plate recognition. It includes **RC verification** by cross-checking a vehicle database, a **Duplicate Plate Detector** to identify fraudulent plates, and a **Parking Analyzer** to monitor and manage parking violations. The system enhances security, prevents fraud, and improves parking management for **law enforcement and smart parking applications**. 🚗🔍
 
+
+
+
+
+
 ![WhatsApp Image 2025-02-05 at 23 21 32_866cc415](https://github.com/user-attachments/assets/ad93ff1d-2875-4787-9b4a-8a760072622b)
+
+The Number Plate Detection System uses OpenCV, Python, and OCR to read license plates from images. It converts images to grayscale for noise reduction and better contrast, then extracts plate numbers using edge detection and OCR (Tesseract/EasyOCR).
 
 ![image](https://github.com/user-attachments/assets/c927f744-bd95-4d78-a97f-61762b7a0bce)
 
